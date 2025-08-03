@@ -1,58 +1,53 @@
-/* Set up a dark, terminal-like background */
 body {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #0d1117;
-    color: #c9d1d9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
-/* Style the container like a terminal window */
 .container {
-    background-color: #161b22;
-    border: 1px solid #30363d;
-    border-radius: 8px;
-    padding: 2rem;
-    box-shadow: 0 0 20px #58a6ff20;
-    text-align: center;
-    max-width: 400px;
-    width: 100%;
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 0 20px #58a6ff20;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
 }
 
-/* Input styling: like a terminal prompt */
 input {
-    padding: 0.6rem;
-    width: 80%;
-    margin-bottom: 1rem;
-    background-color: #0d1117;
-    border: 1px solid #30363d;
-    color: #c9d1d9;
-    font-family: monospace;
+  padding: 0.6rem;
+  width: 80%;
+  margin-bottom: 1rem;
+  background-color: #0d1117;
+  border: 1px solid #30363d;
+  color: #c9d1d9;
+  font-family: monospace;
 }
 
-/* Button with hacker-style look */
 button {
-    padding: 0.6rem 1.2rem;
-    background-color: #238636;
-    color: #ffffff;
-    border: none;
-    font-family: monospace;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background 0.3s ease;
+  padding: 0.6rem 1.2rem;
+  background-color: #238636;
+  color: #ffffff;
+  border: none;
+  font-family: monospace;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
 }
 
 button:hover {
-    background-color: #2ea043;
+  background-color: #2ea043;
 }
 
-/* Result output styled like terminal output */
 #result {
-    margin-top: 1rem;
-    font-weight: bold;
-    color: #58a6ff;
-    white-space: pre-wrap;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #58a6ff;
+  white-space: pre-wrap;
 }
