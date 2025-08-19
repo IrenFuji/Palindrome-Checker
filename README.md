@@ -10,7 +10,8 @@ A **Palindrome Checker** is a simple app that lets users test whether a given wo
 - **CSS** – styled with a console-inspired dark theme
 - **JavaScript** – handles input checking and palindrome logic
 
-I used vanilla JS (no frameworks) to keep the project lightweight.
+I used vanilla JS to keep the project lightweight. 
+Note: no frameworks.
 
 ---
 
