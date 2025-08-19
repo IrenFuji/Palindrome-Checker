@@ -1,4 +1,4 @@
-# Palindrome Checker ⭐️
+# Palindrome Checker
 
 A **Palindrome Checker** is a simple app that lets users test whether a given word, phrase, or sentence reads the same forwards and backwards — ignoring spaces, punctuation, and capitalization.
 
